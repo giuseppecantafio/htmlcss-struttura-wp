@@ -1,6 +1,6 @@
 /* Debug */
 .debug{
-    border: 1px solid black;
+   border: 1px solid black;
 
 }
 
@@ -34,7 +34,7 @@ body{
     position: relative;
 }
 .h-top{
-    height: 100px;
+    height: 110px;
     background-color: #E579E6;
     margin-top: 10px;
     width: 700px;
@@ -77,14 +77,18 @@ main{
 .column{
     height: 280px;
     background-color: #ABCFE7;
-    width: 350px;
+    width: 380px;
     margin-bottom: 10px;
     float: left;
 }
 .column.column-side{
     width: 150px;
 }
-
+#c-column{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+}
 .left{
     float: left;
 }
