@@ -1,8 +1,9 @@
-/* Debug */
+/* Debug, non lo tolgo perché può servirmi
 .debug{
-   border: 1px solid black;
+    border: 1px solid black;
 
 }
+*/
 
 /* Reset e Clearfix */
 *{
@@ -55,7 +56,7 @@ body{
 /* Main */
 main{
     float: left;
-    height: 400px;
+    height: 370px;
     width: 800px;
     position: relative;
 }
@@ -98,4 +99,13 @@ footer{
     height: 100px;
     width: 800px;
     float: left;
+    position: relative;
+}
+.credits{
+    height: 55px;
+    background-color: #8801FE;
+    width: 700px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
 }
